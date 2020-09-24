@@ -22,6 +22,7 @@ public class AppTest
        WebDriver driver = new ChromeDriver();
        driver.get("http://www.google.co.in");
        Thread.sleep(5000);
+       driver.quit();
     }
 }
  

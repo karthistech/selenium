@@ -22,6 +22,7 @@ public class BeforeAndAfterClass
     public void beforeSuite()
     {
         System.out.println("In Before Suite Method");
+        System.out.println("Dummy");
     }
      
     /**
@@ -34,6 +35,7 @@ public class BeforeAndAfterClass
     public void afterSuite()
     {
         System.out.println("In After Suite Method");
+        System.out.println("Dummy");
     }
      
     /**
@@ -45,6 +47,7 @@ public class BeforeAndAfterClass
     public void beforeTest()
     {
         System.out.println("In Before Test Method");
+        System.out.println("Dummy");
     }
      
     /**
@@ -56,6 +59,7 @@ public class BeforeAndAfterClass
     public void afterTest()
     {
         System.out.println("In After Test Method");
+        System.out.println("Dummy");
     }
      
     /**
@@ -66,6 +70,7 @@ public class BeforeAndAfterClass
     public void beforeClass()
     {
         System.out.println("In Before Class Method");
+        System.out.println("Dummy");
     }
      
     /**
@@ -76,6 +81,7 @@ public class BeforeAndAfterClass
     public void afterClass()
     {
         System.out.println("In AfterClass Method");
+        System.out.println("Dummy");
     }
      
     /**
@@ -89,6 +95,7 @@ public class BeforeAndAfterClass
     public void beforeFirstGroup()
     {
         System.out.println("In Before First Group Method");
+        System.out.println("Dummy");
     }
      
     /**
@@ -102,6 +109,7 @@ public class BeforeAndAfterClass
     public void afterFirstGroup()
     {
         System.out.println("In After First Group Method");
+        System.out.println("Dummy");
     }
      
     /**
@@ -115,6 +123,7 @@ public class BeforeAndAfterClass
     public void beforeSecondGroup()
     {
         System.out.println("In Before Second Group Method");
+        System.out.println("Dummy");
     }
      
     /**
@@ -128,6 +137,7 @@ public class BeforeAndAfterClass
     public void afterSecondGroup()
     {
         System.out.println("In After Second Group Method");
+        System.out.println("Dummy");
     }
      
     /**
@@ -137,6 +147,7 @@ public class BeforeAndAfterClass
     public void beforeMethod()
     {
         System.out.println("In BeforeMethod Method");
+        System.out.println("Dummy");
     }
      
     /**
@@ -146,6 +157,7 @@ public class BeforeAndAfterClass
     public void afterMethod()
     {
         System.out.println("In AfterMethod Method");
+        System.out.println("Dummy");
     }
      
     /**
@@ -155,6 +167,7 @@ public class BeforeAndAfterClass
     public void firstGroupMethodOne()
     {
         System.out.println("In Test method one of FirstGroup");
+        System.out.println("Dummy");
     }
      
     /**
@@ -164,6 +177,7 @@ public class BeforeAndAfterClass
     public void firstGroupMethodTwo()
     {
         System.out.println("In Test method two of FirstGroup");
+        System.out.println("Dummy");
     }
      
     /**
@@ -173,6 +187,7 @@ public class BeforeAndAfterClass
     public void secondGroupMethodOne()
     {
         System.out.println("In Test method one of SecondGroup");
+        System.out.println("Dummy");
     }
      
     /**
@@ -182,5 +197,6 @@ public class BeforeAndAfterClass
     public void secondGroupMethodTwo()
     {
         System.out.println("In Test method two of SecondGroup");
+        System.out.println("Dummy");
     }
 }
