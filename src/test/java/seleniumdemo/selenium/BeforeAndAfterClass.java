@@ -44,6 +44,10 @@ public class BeforeAndAfterClass
     {
         System.out.println("In After Suite Method");
         System.out.println("Dummy");
+        System.out.println("Dummy again i am a monster");
+        System.out.println("Dummy again i am a monster");
+        System.out.println("Dummy again i am a monster");
+        System.out.println("Dummy again i am a monster");
     }
      
     /**
