@@ -13,7 +13,7 @@
   </test>
   <test name="TesTwo">
     <classes>
-        <class name="seleniumdemo.selenium.BeforeAndAfterClass">
+        <class name="seleniumdemo.selenium.eleniumimportantcode">
             <methods>
             <include name="secondGroupMethodOne"/>
             <include name="secondGroupMethodTwo"/>

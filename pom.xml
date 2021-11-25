@@ -92,6 +92,27 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>
+        <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>1.2.1</version>
+                <executions>
+                    <execution>
+                        <phase>generate-sources</phase>
+                        <configuration>
+                            <executable>cmd</executable>
+                            <workingDirectory></workingDirectory>
+                            <arguments>
+                                <argument>/C</argument>
+                                <argument>"${project.basedir}/mvn.bat"</argument>
+                            </arguments>
+                        </configuration>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                    </execution>                            
+                </executions>
+             </plugin>
       </plugins>
     </pluginManagement>
   </build>
